@@ -1,0 +1,69 @@
+Assignment 1
+============
+Alaa Hussein
+912413743
+
+## Part 1
+
+###My BIS180L Lab Partner:
+Name: Paul Zaman
+**Major: Genetics**
+_Year: 4th year_
+List of Likes:
+1. Hiking
+2. Bush Craft
+3. Video Games
+
+
+## Part 2
+ 1. made directory
+> mkdir LAB1
+2. made file called taxonomy
+>cd LAB1/
+cat taxonomy
+
+3. Opened the file in editor
+>nano taxonomy
+4. went to NCBI website and copied the taxonomy of each species into the 	text editor.
+5. changed the ";" to "/" and deleted the spaces and add a space before the beginning of each new lineage rather than a new line.
+>cat taxonomy | tr ";" "/" | tr -d " " | tr "\n" " "
+6. Copied the edited version of the taxonomy lineages of the species to nano.
+> nano
+7. created the directories according to the newly edited taxonomy lineages
+>mkdir -p "edited taxonmy lineages inserted here"
+
+## Part 3
+
+
+**Table 1:** Mono-nucleotide frequencies
+
+| NT |  At  |  Ce  |  Dm  |
+|:--:|:-----|:-----|:-----|
+| A  |   1512485   |    2005549  |  3277483    |
+| C  |    1512169  |  2003259    |   3268509   |
+| G  |   1511999   |  2003292    |3269239      |
+| T  |   1512465   |    2005557  |    3276039  |
+
+
+**Table 2:** Expected and observed di-nucleotide frequences
+
+| NTs| At obs | At exp | Ce obs | Ce exp | Dm obs | De exp |
+|:--:|:-------|:-------|:-------|:-------|:-------|:-------|
+| AC |        |        |        |        |        |        |
+| AG |        |        |        |        |        |        |
+| AT |        |        |        |        |        |        |
+| CA |        |        |        |        |        |        |
+| CC |        |        |        |        |        |        |
+| CG |        |        |        |        |        |        |
+| CT |        |        |        |        |        |        |
+| GA |        |        |        |        |        |        |
+| GC |        |        |        |        |        |        |
+| GG |        |        |        |        |        |        |
+| GT |        |        |        |        |        |        |
+| TA |        |        |        |        |        |        |
+| TC |        |        |        |        |        |        |
+| TG |        |        |        |        |        |        |
+| TT |        |        |        |        |        |        |
+
+Briefly discuss the results of your experiment below.
+
